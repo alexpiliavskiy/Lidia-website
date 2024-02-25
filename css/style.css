@@ -49,6 +49,12 @@ body {
   margin-bottom: 10px;
 }
 
+.header-block__label:hover {
+  cursor: pointer;
+  color: #4737ff;
+  text-decoration: underline;
+}
+
 .header-block__title {
   color: #000;
   font-size: 48px;
@@ -328,6 +334,7 @@ body {
 }
 
 .features__container {
+  display: flex;
 }
 
 .features__header-block {
