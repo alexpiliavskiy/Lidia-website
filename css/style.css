@@ -165,10 +165,25 @@ body {
 .header {
   position: sticky;
   top: 0;
+  background-color: #16378ad8;
   padding-top: 77px;
-  position: relative;
+  padding-bottom: 20px;
+  /* position: relative; */
   z-index: 50;
 }
+
+@media (max-width: 991.98px) {
+  .header {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 467.98px) {
+  .header {
+    padding-top: 10px;
+  }
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -211,7 +226,7 @@ body {
 }
 
 .menu__link:hover {
-  color: #4737ff;
+  color: #9b9b9b;
   text-decoration: underline;
 }
 
