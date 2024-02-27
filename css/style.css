@@ -163,12 +163,27 @@ body {
 /*------------------------------------------------------------------------*/
 /* Header */
 .header {
-  position: sticky;
+  /* position: sticky;
   top: 0;
+  background-color: #16378ad8; */
   padding-top: 77px;
+  padding-bottom: 20px;
   position: relative;
   z-index: 50;
 }
+
+/* @media (max-width: 991.98px) {
+  .header {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 467.98px) {
+  .header {
+    padding-top: 10px;
+  }
+} */
+
 .header__container {
   display: flex;
   align-items: center;
@@ -211,7 +226,7 @@ body {
 }
 
 .menu__link:hover {
-  color: #4737ff;
+  color: #9b9b9b;
   text-decoration: underline;
 }
 
@@ -642,6 +657,20 @@ body {
   cursor: pointer;
   background-color: #a1a2ab23;
   scale: 1.1;
+}
+
+@media (max-width: 991.98px) {
+  .reviews__item:hover {
+    scale: 1;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 467.98px) {
+  .reviews__item:hover {
+    scale: 1;
+    background-color: #fff;
+  }
 }
 
 .reviews__item > * {
